@@ -23,10 +23,6 @@ jobs:
           - archive_playbook.yml
           - package_playbook.yml
         molecule_distro:
-          - distro: centos:7
-            command: /usr/sbin/init
-          - distro: centos:8
-            command: /usr/sbin/init
           - distro: ubuntu:18.04
             command: /lib/systemd/systemd
           - distro: ubuntu:20.04
